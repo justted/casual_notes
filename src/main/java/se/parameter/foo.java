@@ -21,14 +21,14 @@ public class foo {
     }
 
     static void operate(StringBuffer x,StringBuffer y) {
-    /**
-     * @Author: Justted Chen
-     * @param null
-     * @Return void
-     * @Description:
-     * @Date: 23:53 2017/11/15
-     */
-
+        /**
+         * @Author: Justted Chen
+         * @param x
+         * @param y
+         * @Return void
+         * @Description:
+         * @Date: 0:01 2017/11/16
+         */
         x.append(y);
 
         y=x;
