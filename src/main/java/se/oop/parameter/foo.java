@@ -1,4 +1,4 @@
-package se.parameter;
+package se.oop.parameter;
 
 /**
  * @Author: Justted Chen
