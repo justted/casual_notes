@@ -11,12 +11,13 @@ import java.io.File;
 public class FileDemo {
     public static void main(String[] args) {
         //创建File对象
-        File f1 = new File("d://test");
+        File f1 = new File("e://test");
         File f2 = new File("1.txt");
         File f3 = new File("e://file.txt");
-        File f4 = new File("d://","1.txt");
+        File f4 = new File("e://","1.txt");
         //创建文件
         try{
+            boolean a = f1.mkdir();
             boolean b = f3.createNewFile();
         }catch(Exception e){
             e.printStackTrace();
@@ -46,7 +47,7 @@ public class FileDemo {
             System.out.println(f5[i]);
         }
         //创建文件夹
-        File f6 = new File("e://test//abc");
+        File f6 = new File("e://test//wok//abc");
         boolean b1 = f6.mkdir();
         System.out.println(b1);
         b1 = f6.mkdirs();
