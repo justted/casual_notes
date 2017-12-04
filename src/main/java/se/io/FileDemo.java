@@ -4,7 +4,7 @@ import java.io.File;
 
 /**
  * @Author: Justted Chen
- * @Description:
+ * @Description: file类的基本操作
  * @Date: Created at 20:12 2017/11/21
  * @Modified By:
  */
@@ -19,6 +19,7 @@ public class FileDemo {
         try{
             boolean a = f1.mkdir();
             boolean b = f3.createNewFile();
+            boolean c = f2.createNewFile();
         }catch(Exception e){
             e.printStackTrace();
         }
